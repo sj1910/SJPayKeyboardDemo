@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20D3111C22E1C07600609E4A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D3111B22E1C07600609E4A /* AppDelegate.m */; };
+		20D3111F22E1C07600609E4A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D3111E22E1C07600609E4A /* ViewController.m */; };
+		20D3112222E1C07600609E4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20D3112022E1C07600609E4A /* Main.storyboard */; };
+		20D3112422E1C07800609E4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20D3112322E1C07800609E4A /* Assets.xcassets */; };
+		20D3112722E1C07800609E4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20D3112522E1C07800609E4A /* LaunchScreen.storyboard */; };
+		20D3112A22E1C07800609E4A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D3112922E1C07800609E4A /* main.m */; };
+		20D3113622E58FC700609E4A /* KeyboadRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D3113022E58FC600609E4A /* KeyboadRect.m */; };
+		20D3113722E58FC700609E4A /* PasswordRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D3113122E58FC600609E4A /* PasswordRect.m */; };
+		20D3113822E58FC700609E4A /* KeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D3113222E58FC700609E4A /* KeyboardView.m */; };
+		20D3113C22E59D3400609E4A /* UILabel+Text.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D3113A22E59D3400609E4A /* UILabel+Text.m */; };
+		E117A433C9A1AF6FF371410E /* libPods-SJPayKeyboardDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E8675A92B41DD6C48DBA135 /* libPods-SJPayKeyboardDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		20D3111722E1C07600609E4A /* SJPayKeyboardDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SJPayKeyboardDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20D3111A22E1C07600609E4A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		20D3111B22E1C07600609E4A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		20D3111D22E1C07600609E4A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		20D3111E22E1C07600609E4A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		20D3112122E1C07600609E4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20D3112322E1C07800609E4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20D3112622E1C07800609E4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20D3112822E1C07800609E4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20D3112922E1C07800609E4A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		20D3113022E58FC600609E4A /* KeyboadRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboadRect.m; sourceTree = "<group>"; };
+		20D3113122E58FC600609E4A /* PasswordRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordRect.m; sourceTree = "<group>"; };
+		20D3113222E58FC700609E4A /* KeyboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardView.m; sourceTree = "<group>"; };
+		20D3113322E58FC700609E4A /* KeyboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardView.h; sourceTree = "<group>"; };
+		20D3113422E58FC700609E4A /* KeyboadRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboadRect.h; sourceTree = "<group>"; };
+		20D3113522E58FC700609E4A /* PasswordRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordRect.h; sourceTree = "<group>"; };
+		20D3113922E59C4C00609E4A /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		20D3113A22E59D3400609E4A /* UILabel+Text.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Text.m"; sourceTree = "<group>"; };
+		20D3113B22E59D3400609E4A /* UILabel+Text.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Text.h"; sourceTree = "<group>"; };
+		2E8675A92B41DD6C48DBA135 /* libPods-SJPayKeyboardDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SJPayKeyboardDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		451436504DC55EE08573DDDE /* Pods-SJPayKeyboardDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SJPayKeyboardDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SJPayKeyboardDemo/Pods-SJPayKeyboardDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		92C70031522F50A77809C60D /* Pods-SJPayKeyboardDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SJPayKeyboardDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SJPayKeyboardDemo/Pods-SJPayKeyboardDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20D3111422E1C07600609E4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E117A433C9A1AF6FF371410E /* libPods-SJPayKeyboardDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20D3110E22E1C07600609E4A = {
+			isa = PBXGroup;
+			children = (
+				20D3111922E1C07600609E4A /* SJPayKeyboardDemo */,
+				20D3111822E1C07600609E4A /* Products */,
+				A92ADE7EDC3260DE450534EC /* Pods */,
+				58293302666021DC25AAE8F8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		20D3111822E1C07600609E4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20D3111722E1C07600609E4A /* SJPayKeyboardDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20D3111922E1C07600609E4A /* SJPayKeyboardDemo */ = {
+			isa = PBXGroup;
+			children = (
+				20D3111A22E1C07600609E4A /* AppDelegate.h */,
+				20D3111B22E1C07600609E4A /* AppDelegate.m */,
+				20D3111D22E1C07600609E4A /* ViewController.h */,
+				20D3111E22E1C07600609E4A /* ViewController.m */,
+				20D3113422E58FC700609E4A /* KeyboadRect.h */,
+				20D3113022E58FC600609E4A /* KeyboadRect.m */,
+				20D3113322E58FC700609E4A /* KeyboardView.h */,
+				20D3113222E58FC700609E4A /* KeyboardView.m */,
+				20D3113522E58FC700609E4A /* PasswordRect.h */,
+				20D3113122E58FC600609E4A /* PasswordRect.m */,
+				20D3113B22E59D3400609E4A /* UILabel+Text.h */,
+				20D3113A22E59D3400609E4A /* UILabel+Text.m */,
+				20D3113922E59C4C00609E4A /* Header.h */,
+				20D3112022E1C07600609E4A /* Main.storyboard */,
+				20D3112322E1C07800609E4A /* Assets.xcassets */,
+				20D3112522E1C07800609E4A /* LaunchScreen.storyboard */,
+				20D3112822E1C07800609E4A /* Info.plist */,
+				20D3112922E1C07800609E4A /* main.m */,
+			);
+			path = SJPayKeyboardDemo;
+			sourceTree = "<group>";
+		};
+		58293302666021DC25AAE8F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E8675A92B41DD6C48DBA135 /* libPods-SJPayKeyboardDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A92ADE7EDC3260DE450534EC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				451436504DC55EE08573DDDE /* Pods-SJPayKeyboardDemo.debug.xcconfig */,
+				92C70031522F50A77809C60D /* Pods-SJPayKeyboardDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20D3111622E1C07600609E4A /* SJPayKeyboardDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20D3112D22E1C07800609E4A /* Build configuration list for PBXNativeTarget "SJPayKeyboardDemo" */;
+			buildPhases = (
+				4CDB77EA2CE5FBF65C6FD8EB /* [CP] Check Pods Manifest.lock */,
+				20D3111322E1C07600609E4A /* Sources */,
+				20D3111422E1C07600609E4A /* Frameworks */,
+				20D3111522E1C07600609E4A /* Resources */,
+				9C03EE6A77EA14B9006E782F /* [CP] Embed Pods Frameworks */,
+				6AC76CDF72BA9F5465FD9A49 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SJPayKeyboardDemo;
+			productName = SJPayKeyboardDemo;
+			productReference = 20D3111722E1C07600609E4A /* SJPayKeyboardDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20D3110F22E1C07600609E4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = sino;
+				TargetAttributes = {
+					20D3111622E1C07600609E4A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 20D3111222E1C07600609E4A /* Build configuration list for PBXProject "SJPayKeyboardDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20D3110E22E1C07600609E4A;
+			productRefGroup = 20D3111822E1C07600609E4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20D3111622E1C07600609E4A /* SJPayKeyboardDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20D3111522E1C07600609E4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20D3112722E1C07800609E4A /* LaunchScreen.storyboard in Resources */,
+				20D3112422E1C07800609E4A /* Assets.xcassets in Resources */,
+				20D3112222E1C07600609E4A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4CDB77EA2CE5FBF65C6FD8EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SJPayKeyboardDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AC76CDF72BA9F5465FD9A49 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SJPayKeyboardDemo/Pods-SJPayKeyboardDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C03EE6A77EA14B9006E782F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SJPayKeyboardDemo/Pods-SJPayKeyboardDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20D3111322E1C07600609E4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20D3111F22E1C07600609E4A /* ViewController.m in Sources */,
+				20D3113622E58FC700609E4A /* KeyboadRect.m in Sources */,
+				20D3112A22E1C07800609E4A /* main.m in Sources */,
+				20D3113822E58FC700609E4A /* KeyboardView.m in Sources */,
+				20D3113722E58FC700609E4A /* PasswordRect.m in Sources */,
+				20D3113C22E59D3400609E4A /* UILabel+Text.m in Sources */,
+				20D3111C22E1C07600609E4A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		20D3112022E1C07600609E4A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20D3112122E1C07600609E4A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		20D3112522E1C07800609E4A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20D3112622E1C07800609E4A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20D3112B22E1C07800609E4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		20D3112C22E1C07800609E4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20D3112E22E1C07800609E4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 451436504DC55EE08573DDDE /* Pods-SJPayKeyboardDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SJPayKeyboardDemo/Header.h";
+				INFOPLIST_FILE = SJPayKeyboardDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sj.SJPayKeyboardDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		20D3112F22E1C07800609E4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92C70031522F50A77809C60D /* Pods-SJPayKeyboardDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SJPayKeyboardDemo/Header.h";
+				INFOPLIST_FILE = SJPayKeyboardDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sj.SJPayKeyboardDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20D3111222E1C07600609E4A /* Build configuration list for PBXProject "SJPayKeyboardDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20D3112B22E1C07800609E4A /* Debug */,
+				20D3112C22E1C07800609E4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20D3112D22E1C07800609E4A /* Build configuration list for PBXNativeTarget "SJPayKeyboardDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20D3112E22E1C07800609E4A /* Debug */,
+				20D3112F22E1C07800609E4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20D3110F22E1C07600609E4A /* Project object */;
+}
